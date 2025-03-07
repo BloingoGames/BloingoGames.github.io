@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "cross-env TAILWIND_CONFIG=tailwind.config.ts next build && echo.>out/.nojekyll && gh-pages -d out --dotfiles",
+    "cname": "echo Bloingo.com > out/CNAME",
+    "nojekyll": "echo.>out/.nojekyll",
+    "deploy": "next build && echo.>out/.nojekyll && echo Bloingo.com > out/CNAME && gh-pages -d out --dotfiles",
     "just-deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
