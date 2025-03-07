@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && npm run export && gh-pages -d out"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -18,10 +20,12 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
+    "postcss": "^8",
+    "autoprefixer": "^10",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "gh-pages": "^5.0.0"
   }
 }
