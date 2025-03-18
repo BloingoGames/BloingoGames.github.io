@@ -1,15 +1,12 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen w-full font-[family-name:var(--font-geist-sans)]">
-        <Image
+        <img
           className="dark:invert"
-          src="/bloingo.svg"
+          src="/bloingo.png"
           alt="Bloingo logo"
-          width={180}
-          height={180}
-          priority
+          width={500}
+          height={500}
         />
     </div>
   );
