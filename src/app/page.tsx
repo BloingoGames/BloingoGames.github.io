@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen w-full font-[family-name:var(--font-geist-sans)]">
         <img
-          src="/bloingo_non-snotty.png"
+          src="/bloingo_transp-bg_logo.png"
           alt="Bloingo logo"
           width={500}
           height={500}
