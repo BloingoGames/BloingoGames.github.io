@@ -11,6 +11,7 @@
     "cname": "echo Bloingo.com > out/CNAME",
     "nojekyll": "echo.>out/.nojekyll",
     "deploy": "next build && echo.>out/.nojekyll && echo Bloingo.com > out/CNAME && gh-pages -d out --dotfiles",
+    "linux-deploy": "next build && echo > out/.nojekyll && echo Bloingo.com > out/CNAME && GH_DEPLOY_PAT=${GH_DEPLOY_PAT} gh-pages -d out --dotfiles --repo https://$GH_DEPLOY_PAT@github.com/BloingoGames/BloingoGames.github.io.git",
     "just-deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
