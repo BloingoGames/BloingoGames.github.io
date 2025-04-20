@@ -2,11 +2,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center h-screen mx-[15%] font-[family-name:var(--font-geist-sans)]">
       <img
-        className="absolute p-4 self-start"
+        className="absolute p-4 self-start w-[20vw]"
         src="/bloingo_transp-bg_logo.png"
         alt="Bloingo logo"
-        width={250}
-        height={50}
       />
 
       {/* <div className="flex w-1/2 justify-center items-center py-6">
@@ -39,34 +37,57 @@ export default function Home() {
       </div>
 
       <div className="flex gap-4">
-        <button
-          className="bg-[url('/Youtube-button_1.svg')] 
-                     bg-no-repeat bg-center bg-auto 
-                     text-white font-semibold
-                     w-[15vw] h-24
-                     rounded-lg shadow-md transition duration-150 ease-in-out
-                     hover:scale-105"
-        />
-        <button
-          className="bg-[url('/Kickstarter-button_1.svg')] 
-                     bg-no-repeat bg-center bg-auto 
-                     text-white font-semibold
-                     w-[15vw] h-24
-                     rounded-lg shadow-md transition duration-150 ease-in-out
-                     hover:scale-105"
-        />
-        <button
-          className="bg-[url('/Discord-button_1.svg')] 
-                     bg-no-repeat bg-center bg-auto 
-                     text-white font-semibold
-                     w-[15vw] h-24
-                     rounded-lg shadow-md transition duration-150 ease-in-out
-                     hover:scale-105"
-        />
+        <a
+          href="https://www.youtube.com/watch?v=BzxMGlnC2II"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            block
+            w-[15vw] h-24
+            bg-[url('/Youtube-button_1.svg')]
+            bg-no-repeat bg-center bg-auto
+            rounded-lg shadow-md
+            transition duration-150 ease-in-out
+            hover:scale-105
+          "
+        >
+          <span className="sr-only">Watch on YouTube</span>
+        </a>
+        <a
+          href="https://www.kickstarter.com/projects/pn852/bloingo-games-just-snap"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            block
+            w-[15vw] h-24
+            bg-[url('/Kickstarter-button_1.svg')]
+            bg-no-repeat bg-center bg-auto
+            rounded-lg shadow-md
+            transition duration-150 ease-in-out
+            hover:scale-105
+          "
+        >
+          <span className="sr-only">Back our project on Kickstarter</span>
+        </a>
+
+        <a
+          href="https://discord.gg/b6T3MDqW"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            block
+            w-[15vw] h-24
+            bg-[url('/Discord-button_1.svg')]
+            bg-no-repeat bg-center bg-auto
+            rounded-lg shadow-md
+            transition duration-150 ease-in-out
+            hover:scale-105
+          "
+        >
+          <span className="sr-only">Join our Discord community</span>
+        </a>
       </div>
-      <div className="text-2xl font-o4b30 text-center mt-8">
-        Trailer
-      </div>
+      
       <div className="flex justify-center w-full mt-8">
         <video
           className="rounded-lg shadow-lg max-w-full aspect-video"
