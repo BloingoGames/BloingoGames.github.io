@@ -1,55 +1,37 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center h-screen mx-[15%] font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col items-center min-h-screen px-4 md:px-[15%] font-[family-name:var(--font-geist-sans)]">
       <img
-        className="absolute p-4 self-start w-[20vw]"
+        className="absolute p-4 self-start w-[30vw] md:w-[20vw]"
         src="/bloingo_transp-bg_logo.png"
         alt="Bloingo logo"
       />
 
-      {/* <div className="flex w-1/2 justify-center items-center py-6">
-        <p className="text-center">
-          We are Bloingo Games. Check back here for news on the development of
-          our upcoming debut title, Just Snap. We look foward to sharing our
-          progress with you all.
-        </p>
-      </div> */}
-
-      <div className="flex justify-center items-center w-[50vw] mt-[5vh]">
+      <div className="flex justify-center items-center w-full sm:w-3/4 md:w-[50vw] mt-12">
         <img
-          className="p-4"
+          className="p-4 w-full h-auto"
           src="/logo_just-snap_transp.png"
           alt="Just Snap logo"
-          width={1000}
-          height={1000}
         />
-
       </div>
-      <div className="flex items-center justify-center w-[60vw] py-6">
+
+      <div className="flex items-center justify-center w-full sm:w-3/4 md:w-[60vw] py-6">
         <button
           className="bg-[url('/special-button-orange.svg')] 
                      bg-no-repeat bg-center bg-auto 
                      text-white font-semibold
-                     w-[50vw] h-24
+                     w-full sm:w-[50vw] h-16 sm:h-24
                      rounded-lg shadow-md transition duration-150 ease-in-out
                      hover:scale-105"
         />
       </div>
 
-      <div className="flex gap-4">
+      <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
         <a
           href="https://www.youtube.com/watch?v=BzxMGlnC2II"
           target="_blank"
           rel="noopener noreferrer"
-          className="
-            block
-            w-[15vw] h-24
-            bg-[url('/Youtube-button_1.svg')]
-            bg-no-repeat bg-center bg-auto
-            rounded-lg shadow-md
-            transition duration-150 ease-in-out
-            hover:scale-105
-          "
+          className="block w-full sm:w-[15vw] h-16 sm:h-24 bg-[url('/Youtube-button_1.svg')] bg-no-repeat bg-center bg-auto rounded-lg shadow-md transition duration-150 ease-in-out hover:scale-105"
         >
           <span className="sr-only">Watch on YouTube</span>
         </a>
@@ -57,15 +39,7 @@ export default function Home() {
           href="https://www.kickstarter.com/projects/pn852/bloingo-games-just-snap"
           target="_blank"
           rel="noopener noreferrer"
-          className="
-            block
-            w-[15vw] h-24
-            bg-[url('/Kickstarter-button_1.svg')]
-            bg-no-repeat bg-center bg-auto
-            rounded-lg shadow-md
-            transition duration-150 ease-in-out
-            hover:scale-105
-          "
+          className="block w-full sm:w-[15vw] h-16 sm:h-24 bg-[url('/Kickstarter-button_1.svg')] bg-no-repeat bg-center bg-auto rounded-lg shadow-md transition duration-150 ease-in-out hover:scale-105"
         >
           <span className="sr-only">Back our project on Kickstarter</span>
         </a>
@@ -74,21 +48,13 @@ export default function Home() {
           href="https://discord.gg/b6T3MDqW"
           target="_blank"
           rel="noopener noreferrer"
-          className="
-            block
-            w-[15vw] h-24
-            bg-[url('/Discord-button_1.svg')]
-            bg-no-repeat bg-center bg-auto
-            rounded-lg shadow-md
-            transition duration-150 ease-in-out
-            hover:scale-105
-          "
+          className="block w-full sm:w-[15vw] h-16 sm:h-24 bg-[url('/Discord-button_1.svg')] bg-no-repeat bg-center bg-auto rounded-lg shadow-md transition duration-150 ease-in-out hover:scale-105"
         >
           <span className="sr-only">Join our Discord community</span>
         </a>
       </div>
       
-      <div className="flex justify-center w-full mt-8">
+      <div className="flex justify-center w-full mt-8 px-4">
         <video
           className="rounded-lg shadow-lg max-w-full aspect-video"
           controls
