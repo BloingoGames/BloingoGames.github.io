@@ -1,15 +1,14 @@
 export default function Home() {
   return (
     <div className="bg-[var(--color-deep-purple)] flex flex-col items-center min-h-screen px-4 sm:mx-[0%] md:px-[15%] overflow-x-hidden">
+      <img
+        className="absolute p-4 self-start w-[30vw] md:w-[25vw] sm:w-[30vw]"
+        src="/assets/bloingo_transp-bg_logo.png"
+        alt="Bloingo logo"
+      />
       {/* Hero Section */}
-      <div className="flex flex-col items-center h-screen">
-        <img
-          className="absolute p-4 self-start w-[30vw] md:w-[25vw] sm:w-[30vw]"
-          src="/assets/bloingo_transp-bg_logo.png"
-          alt="Bloingo logo"
-        />
-
-        <div className="flex justify-center items-center w-full sm:w-[70vw] md:w-[50vw] mt-12 mb-[5vh]">
+      <div className="flex flex-col gap-4   items-center h-screen justify-between pt-[10vh] pb-[10vh]">
+        <div className="flex justify-center items-center w-full sm:w-[70vw] md:w-[50vw]">  
           <img
             className="w-full h-auto"
             src="/assets/logo_just-snap_transp.png"
@@ -18,7 +17,7 @@ export default function Home() {
         </div>
 
         {/* Main special button */}
-        <div className="flex items-center justify-center w-full sm:w-[50vw] md:w-[60vw] mb-[5vh]">
+        <div className="flex items-center justify-center w-1/2 sm:w-[70vw] md:w-[70vw]">
           <a
             href="https://store.steampowered.com/app/3635700/"
             target="_blank"
@@ -34,12 +33,12 @@ export default function Home() {
         </div>
 
         {/* Secondary buttons */}
-        <div className="flex flex-col justify-center md:flex-row sm:flex-row gap-4 w-[80vw] sm:w-[80vw] items-center">
+        <div className="flex justify-center gap-4 md:gap-6 flex-col md:flex-row sm:flex-row w-full items-center px-24">
           <a
             href="https://www.youtube.com/watch?v=BzxMGlnC2II"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-[40vw] md:w-[15vw] lg:w-[15vw] transition-transform hover:scale-105"
+            className="inline-block w-[40vw] sm:w-[25vw] md:w-[20vw] lg:w-[15vw] transition-transform hover:scale-105"
             >
             <img
               src="/assets/Youtube-button_1.svg"
@@ -52,7 +51,7 @@ export default function Home() {
             href="https://www.kickstarter.com/projects/pn852/bloingo-games-just-snap"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-[40vw] md:w-[15vw] lg:w-[15vw] transition-transform hover:scale-105"
+            className="inline-block w-[40vw] sm:w-[25vw] md:w-[20vw] lg:w-[15vw] transition-transform hover:scale-105"
             >
             <img
               src="/assets/Kickstarter-button_1.svg"
@@ -65,7 +64,7 @@ export default function Home() {
             href="https://discord.gg/b6T3MDqW"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block w-[40vw] md:w-[15vw] lg:w-[15vw] transition-transform hover:scale-105"
+            className="inline-block w-[40vw] sm:w-[25vw] md:w-[20vw] lg:w-[15vw] transition-transform hover:scale-105"
             >
             <img
               src="/assets/Discord-button_1.svg"
