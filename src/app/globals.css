@@ -20,4 +20,15 @@ body {
 
 @theme {
   --color-deep-purple: #181625;
+  --color-deeper-purple: #0F0E18;
+}
+
+@layer base {
+  .font-jersey {
+    font-family: 'Jersey 10', cursive;
+  }
+
+  .font-sedan {
+    font-family: 'Sedan', serif;
+  }
 }
