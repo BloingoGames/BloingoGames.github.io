@@ -16,40 +16,58 @@ export default function Home() {
       </div>
 
       <div className="flex items-center justify-center w-full sm:w-3/4 md:w-[60vw] py-6">
-        <button
-          className="bg-[url('/assets/special-button-orange.svg')] 
-                     bg-no-repeat bg-center bg-auto 
-                     text-white font-semibold
-                     w-full sm:w-[50vw] h-16 sm:h-24
-                     rounded-lg shadow-md transition duration-150 ease-in-out
-                     hover:scale-105"
-        />
+        <a
+          href="https://store.steampowered.com/app/3635700/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block w-3/4 md:w-1/2 lg:w-1/2 transition-transform hover:scale-105"
+        >
+          <img
+            src="/assets/special-button-orange.svg"
+            alt="Play on Steam"
+            className="w-full h-auto rounded-lg shadow-md"
+          />
+        </a>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+      <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-center">
         <a
           href="https://www.youtube.com/watch?v=BzxMGlnC2II"
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full sm:w-[15vw] h-16 sm:h-24 bg-[url('/assets/Youtube-button_1.svg')] bg-no-repeat bg-center bg-auto rounded-lg shadow-md transition duration-150 ease-in-out hover:scale-105"
+          className="inline-block w-[40vw] md:w-[15vw] lg:w-[15vw] transition-transform hover:scale-105"
         >
+          <img
+            src="/assets/Youtube-button_1.svg"
+            alt="Play on YouTube"
+            className="w-full h-auto rounded-lg shadow-md"
+          />
           <span className="sr-only">Watch on YouTube</span>
         </a>
         <a
           href="https://www.kickstarter.com/projects/pn852/bloingo-games-just-snap"
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full sm:w-[15vw] h-16 sm:h-24 bg-[url('/assets/Kickstarter-button_1.svg')] bg-no-repeat bg-center bg-auto rounded-lg shadow-md transition duration-150 ease-in-out hover:scale-105"
+          className="inline-block w-[40vw] md:w-[15vw] lg:w-[15vw] transition-transform hover:scale-105"
         >
+          <img
+            src="/assets/Kickstarter-button_1.svg"
+            alt="Back on Kickstarter"
+            className="w-full h-auto rounded-lg shadow-md"
+          />
           <span className="sr-only">Back our project on Kickstarter</span>
         </a>
-
         <a
           href="https://discord.gg/b6T3MDqW"
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full sm:w-[15vw] h-16 sm:h-24 bg-[url('/assets/Discord-button_1.svg')] bg-no-repeat bg-center bg-auto rounded-lg shadow-md transition duration-150 ease-in-out hover:scale-105"
+          className="inline-block w-[40vw] md:w-[15vw] lg:w-[15vw] transition-transform hover:scale-105"
         >
+          <img
+            src="/assets/Discord-button_1.svg"
+            alt="Join our Discord community"
+            className="w-full h-auto rounded-lg shadow-md"
+          />
           <span className="sr-only">Join our Discord community</span>
         </a>
       </div>
