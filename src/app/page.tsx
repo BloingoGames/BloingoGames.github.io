@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="bg-[var(--color-deep-purple)] flex flex-col items-center min-h-screen px-4 sm:mx-[0%] md:px-[15%] overflow-x-hidden">
+    <div className="bg-[var(--color-deep-purple)] flex flex-col items-center min-h-screen px-12 sm:mx-[0%] md:px-[15%] overflow-x-hidden">
       <img
         className="absolute p-4 self-start w-[30vw] md:w-[25vw] sm:w-[30vw]"
         src="/assets/bloingo_transp-bg_logo.png"
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         {/* Main special button */}
-        <div className="flex items-center justify-center w-1/2 sm:w-[70vw] md:w-[70vw]">
+        <div className="flex items-center justify-center w-full sm:w-[70vw] md:w-[70vw]">
           <a
             href="https://store.steampowered.com/app/3635700/"
             target="_blank"
@@ -78,8 +78,8 @@ export default function Home() {
       
       {/* About section */}
       <div className="flex mt-10 item-center justify-center flex-col">
-        <div className="flex items-center justify-center flex-col">
-          <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey10">
+        <div className="flex items-center justify-center flex-col mt-12">
+          <h2 className="text-3xl text-center text-white font-bold mb-4 font-jersey10">
             About Just Snap
           </h2>
           <p className="text-lg text-center text-white max-w-3xl font-jersey10">
@@ -103,8 +103,9 @@ export default function Home() {
               />
           </div>
         </div>
-
-        <div>
+        
+        {/* About the team */}
+        <div className="flex items-center justify-center flex-col mt-12">
           <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey10">
             About the Team
           </h2>
