@@ -80,18 +80,18 @@ export default function Home() {
       {/* About section */}
       <div className="flex mt-10 item-center justify-center flex-col">
         <div className="flex items-center justify-center flex-col">
-          <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey">
+          <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey10">
             About Just Snap
           </h2>
-          <p className="text-lg text-center text-white max-w-3xl font-jersey">
+          <p className="text-lg text-center text-white max-w-3xl font-jersey10">
             We lied. It&apos;s not just &quot;Snap&quot;!
           </p>
-          <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey">
+          <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey10">
             It&apos;s more like Snap after it spent a gap year at the Bloingo Department of Music & Acoustics (shout‑out to our resident sound sorcerers, Chris & Jake) and came back shredding 130 BPM guitar solos while juggling decks of chaos.
           </p>
 
           <div className="flex flex-col justify-center w-full mt-8 px-4">
-            <h2 className="text-2xl font-jersey">
+            <h2 className="text-2xl font-jersey10">
               Check this out...
             </h2>
             <iframe
@@ -106,14 +106,14 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey">
+          <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey10">
             About the Team
           </h2>
-          <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey">
+          <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey10">
             The Bloingo Games conglomerate is made up of 5 whole humans. Each one lovingly crafted with absurd stat distributions and questionable skill trees.
           </p>
 
-          <div className="grid gap-6 md:grid-cols-2 max-w-4xl text-white font-jersey">
+          <div className="grid gap-6 md:grid-cols-2 max-w-4xl text-white font-jersey20">
             <div className="bg-[var(--color-deeper-purple)] p-4 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold">📣 Francis Rowlands</h3>
               <p>Role: Project & Community Manager</p>
@@ -190,7 +190,7 @@ export default function Home() {
       {/* End of about */}
 
       {/* Footer */}
-      <footer className="mt-16 w-full bg-[var(--color-deeper-purple)] text-white font-jersey">
+      <footer className="mt-16 w-full bg-[var(--color-deeper-purple)] text-white font-jersey10">
         <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <h4 className="text-xl font-bold mb-2">BloingoGames</h4>

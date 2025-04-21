@@ -28,10 +28,10 @@ export default function RootLayout({
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Sedan:ital@0;1&display=swap"
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Sedan:ital@0;1&display=swap" 
           rel="stylesheet"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Sedan:ital@0;1&display=swap" rel="stylesheet"></link>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

@@ -8,7 +8,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        jersey: ['"Jersey 10"', 'cursive'],
+        jersey10: ['"Jersey 10"', 'cursive'],
+        jersey20: ['"Jersey 20"', 'cursive'],
         sedan: ['"Sedan"', 'serif'],
       },
     },

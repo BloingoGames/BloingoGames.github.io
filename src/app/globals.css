@@ -24,8 +24,11 @@ body {
 }
 
 @layer base {
-  .font-jersey {
+  .font-jersey10 {
     font-family: 'Jersey 10', cursive;
+  }
+  .font-jersey20 {
+    font-family: 'Jersey 20', cursive;
   }
 
   .font-sedan {
