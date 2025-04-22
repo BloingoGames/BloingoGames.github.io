@@ -131,12 +131,12 @@ export default function Home() {
                 <div className="mt-8 text-center">
                   <h3 className="text-2xl text-white font-jersey10 mb-4">Want to give it a try?</h3>
                   <p className="text-lg text-white font-jersey20 mb-6">
-                    We&apos;ve made a demo for you. Download it using the link provided below.
+                    We&apos;ve got a demo for you! Download it from our GitHub by clicking the download button below.
                   </p>
-                  <a
+                  <Link
                     href="https://github.com/BloingoGames/just-snap-public-releases/releases/download/v0.0.1/Just.Snap.Demo.Build.1.zip"
                     download
-                    className="inline-block font-bold shadow-md transition-transform hover:scale-105"
+                    className="inline-block w-64 font-bold shadow-md transition-transform hover:scale-105"
                   >
                     <Image
                       src="/assets/Download-button.svg"
@@ -145,11 +145,10 @@ export default function Home() {
                       height={50}
                       className="w-full h-auto"
                       />
-                  </a>
+                  </Link>
                 </div>
             </div>
           </div>
-          
           {/* About the team */}
           <div className="flex items-center justify-center flex-col mt-12">
             <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey10">
