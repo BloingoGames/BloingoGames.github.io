@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       {/* Hero Section */}
-      <section className="w-full max-w-4xl flex flex-col items-center text-center h-screen justify-center px-4 sm:px-8 md:px-16 lg:px-24">
+      <section className="w-full max-w-4xl flex flex-col items-center text-center min-h-screen pt-16 md:h-screen justify-center px-4 sm:px-8 md:px-16 lg:px-24">
         {/* Just Snap Logo */}
         <div className="w-full max-w-md md:max-w-lg lg:max-w-xl mb-8">
           <Image
@@ -108,14 +108,14 @@ export default function Home() {
             <h2 className="text-3xl text-center text-white font-bold mb-4 font-jersey10">
               About Just Snap
             </h2>
-            <p className="text-lg text-center text-white max-w-3xl font-jersey10">
+            <p className="text-lg text-center text-white max-w-3xl font-jersey20">
               We lied. It&apos;s not just &quot;Snap&quot;!
             </p>
-            <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey10">
+            <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey20">
               It&apos;s more like Snap after it spent a gap year at the Bloingo Department of Music & Acoustics (shout‑out to our resident sound sorcerers, Chris & Jake) and came back shredding 130 BPM guitar solos while juggling decks of chaos.
             </p>
 
-            <div className="flex flex-col justify-center w-full mt-8 px-4">
+            <div className="flex flex-col justify-center items-center w-full mt-8 px-4">
               <h2 className="text-2xl font-jersey10">
                 Check this out...
               </h2>
@@ -135,7 +135,7 @@ export default function Home() {
             <h2 className="text-3xl text-center text-white font-bold mt-12 mb-4 font-jersey10">
               About the Team
             </h2>
-            <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey10">
+            <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey20">
               The Bloingo Games conglomerate is made up of 5 whole humans. Each one lovingly crafted with absurd stat distributions and questionable skill trees.
             </p>
 
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="mt-16 w-full bg-[var(--color-deeper-purple)] text-white font-jersey10">
+      <footer className="mt-16 w-full bg-[var(--color-deeper-purple)] text-white font-jersey20">
         <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <h4 className="text-xl font-bold mb-2">BloingoGames</h4>
