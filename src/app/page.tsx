@@ -127,6 +127,26 @@ export default function Home() {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
                 />
+                {/* Download CTA */}
+                {/* <div className="mt-8 text-center">
+                  <h3 className="text-2xl text-white font-jersey10 mb-4">Want to give it a try?</h3>
+                  <p className="text-lg text-white font-jersey20 mb-6">
+                    We've made a demo for you. Download it using the link provided below.
+                  </p>
+                  <a
+                    // href="/downloads/just-snap-demo.zip"
+                    // download
+                    className="inline-block font-bold shadow-md transition-transform hover:scale-105"
+                  >
+                    <Image
+                      src="/assets/Download-button.svg"
+                      alt="Download Demo"
+                      width={200}
+                      height={50}
+                      className="w-full h-auto"
+                      />
+                  </a>
+                </div> */}
             </div>
           </div>
           
