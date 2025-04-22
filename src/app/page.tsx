@@ -12,7 +12,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-[var(--color-deep-purple)] flex flex-col items-center overflow-hidden">
+    <div className="bg-[var(--color-deep-purple)] flex flex-col items-center overflow-hidden text-white">
       
       {/* Bloingo Logo */}
       <div className="w-full max-w-7xl relative px-4 sm:px-8 md:px-16 lg:px-24">
@@ -120,7 +120,7 @@ export default function Home() {
                 Check this out...
               </h2>
               <iframe
-                className="rounded-lg shadow max-w-full aspect-video m-4 w-full"
+                className="rounded-lg shadow max-w-full aspect-video m-4 w-1/2"
                 src="https://www.youtube.com/embed/BzxMGlnC2II"
                 title="Just Snap Trailer 2"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
