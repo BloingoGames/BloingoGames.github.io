@@ -155,7 +155,7 @@ export default function Home() {
               About the Team
             </h2>
             <p className="text-lg text-center text-white max-w-3xl mb-8 font-jersey20">
-              The Bloingo Games conglomerate is made up of 5 whole humans. Each one lovingly crafted with absurd stat distributions and questionable skill trees.
+              The Bloingo Games conglomerate is made up of 5 whole humans. Each one lovingly crafted with absurd stat distributions and overpowered skill trees.
             </p>
 
             <div className="grid gap-6 md:grid-cols-2 max-w-4xl text-white font-jersey20">
